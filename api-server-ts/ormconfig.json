@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "wellstone",
+  "password": "dblab321",
+  "database": "api_ts_dev",
+  "synchronize": true,
+  "entities": [
+    "src/main/account/account.ts"
+  ],
+  "cli": {
+    "entitiesDir": "src/main/account/account.ts",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}

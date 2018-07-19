@@ -1,0 +1,25 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "pg": "^6.4.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "mocha": "^3.4.2",
+    "should": "^11.2.1",
+    "supertest": "^3.0.0"
+  }
+}
