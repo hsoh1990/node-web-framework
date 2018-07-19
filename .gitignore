@@ -143,4 +143,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-*.js
+build
+.nyc_output
